@@ -16,6 +16,14 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
 
+    @media(max-width: 950px) {
+        width: 50%;
+    }
+
+    @media(max-width: 650px) {
+        width: 90%;
+    }
+
         /* .normal {
             background: ${props => props.theme.colors.normal};
         }

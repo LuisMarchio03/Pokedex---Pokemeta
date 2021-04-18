@@ -10,6 +10,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media(max-width: 950px) {
+    flex-direction: column;
+  }
+
   header {
     width: 100%;
     padding: 0.6rem;

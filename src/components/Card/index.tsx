@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 import { CardContainer, Header, Img, Number, Types, PokeName } from './styles';
 
@@ -26,7 +27,7 @@ const Card: React.FC<CardProps> = (props) => {
   }, []);
 
   return (
-
+    <Link href={`/${pokeName}`}>
       <CardContainer key={props.key}>
 
       <Header>
@@ -43,7 +44,7 @@ const Card: React.FC<CardProps> = (props) => {
       </Header>
 
       </CardContainer>
-    
+    </Link>
   );
 }
 

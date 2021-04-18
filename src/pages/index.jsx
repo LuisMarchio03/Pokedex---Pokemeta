@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import Card from '../components/Card';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 import { Container } from '../styles/pages/Home';
 
@@ -21,11 +22,13 @@ const Home = (props) => {
         </header>
 
         {pokeFilter.map(poke => (
-          <Card 
-            url={`https://pokeapi.co/api/v2/pokemon/${poke.name}`}
-            key={poke.name}
-          />
+            <Card 
+              url={`https://pokeapi.co/api/v2/pokemon/${poke.name}`}
+              key={poke.name}
+            />
         ))}
+
+        <Footer></Footer>
     </Container>
   )
 }
