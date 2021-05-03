@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokemeta
 
-## Getting Started
+ - Pokedex competitiva, inspirada nos jogos e no anime de Pokemon!
 
-First, run the development server:
+### 📋 Pré-requisitos
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Node.js
+- Yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔧 Instalação
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Next.js --- yarn create next-app podcastr
+- Axios --- yarn add axios
+- styled-components --- yarn add styled-components
+- Typescript --- yarn add typescript @types/react @types/node -D
+- yarn add @types/styled-components -D
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Ou apenas clone o projeto é execute o comando:**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**yarn install**
 
-## Learn More
+## ⚙️ Executando os testes
 
-To learn more about Next.js, take a look at the following resources:
+**yarn dev**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Construído com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js
+- React.js
+- Typescript
+- Styled-components
 
-## Deploy on Vercel
+## ✒️ Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Luís Gabriel Marchió Batista
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🎇 Minhas redes sociais:
+
+- Instagram: https://www.instagram.com/luis_marchio/
+
+- Linkedin: https://www.linkedin.com/in/lu%C3%ADs-gabriel-marchi%C3%B3-batista-a0aa64206/
+
+## Api's utilizadas
+
+- PokeApi = https://pokeapi.co/
+- Veekun = https://veekun.com/dex
+- https://pokeres.bastionbot.org/
